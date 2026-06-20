@@ -1,0 +1,40 @@
+import random
+
+choices = ("rock", "paper", "scissors")
+
+print("Guess one: rock, paper, scissors")
+
+while True:
+    computer = random.choice(choices)
+    user = input("Enter your guess: ")
+
+    if computer == "rock" and user == "rock":
+        print("Draw")
+
+    elif computer == "paper" and user == "paper":
+        print("Draw")
+
+    elif computer == "scissors" and user == "scissors":
+        print("Draw")
+
+    elif computer == "rock" and user == "paper":
+        print("Broo you cooked computer and computer choice is", computer)
+
+    elif computer == "paper" and user == "rock":
+        print("Computer cooked you. Computer choice is", computer)
+
+    elif computer == "paper" and user == "scissors":
+        print("Broo you cooked computer and computer choice is", computer)
+
+    elif computer == "scissors" and user == "paper":
+        print("Computer cooked you. Computer choice is", computer)
+
+    elif computer == "rock" and user == "scissors":
+        print("Computer cooked you. Computer choice is", computer)
+
+    elif computer == "scissors" and user == "rock":
+        print("Broo you cooked computer and computer choice is", computer)
+
+    else:
+        print("Please enter rock, paper, or scissors")
+        break
