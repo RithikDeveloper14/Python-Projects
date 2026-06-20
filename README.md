@@ -10,7 +10,7 @@ Projects
 - Rock Paper Scissors — random + elif chains
 - Student Grade Calculator — conditionals + grade logic
 - Satellite Simulator — fuel system, coordinate tracking, and Earth return sequence
-- CobraLang v1.0 — custom assembly-style interpreter (long-term project)
+- CobraLang v1.0 — experimental programming language built with Python (long-term project)
 
 Tools
 
