@@ -1,0 +1,25 @@
+name = input("Enter your name: ")
+tamil = int(input("Enter your tamil mark: "))
+english = int(input("Enter your english mark: "))
+maths = int(input("Enter your maths mark: "))
+science = int(input("Enter your science mark: "))
+social_science = int(input("Enter your social science mark: "))
+
+print(f"Welcome {name}")
+print(f"Total: {tamil + english + maths + science + social_science}")
+print(f"Average: {(tamil + english + maths + science + social_science) / 5}")
+
+average = (tamil + english + maths + science + social_science) / 5
+
+if average >= 90:
+    print("Excellent keep it up!")
+elif average >= 75:
+    print("Super!!")
+elif average >= 60:
+    print("Not bad")
+elif average >= 35:
+    print("Bro you need lots of improvement")
+else:
+    print("Bro you want to die")
+
+print("This Student Grade Calculator was made by S. Rithik on 6/6/2026")
