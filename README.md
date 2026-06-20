@@ -1,20 +1,20 @@
-Python Projects
+# Python Projects
 
 Created by Rithik
 
-Projects
+## Projects
+- **Calculator** — basic arithmetic operations using functions
+- **Number Guessing Game** — random module + while loop
+- **Letter Guessing Game** — string comparison + loops
+- **Rock Paper Scissors** — random + elif chains
+- **Student Grade Calculator** — conditionals + grade logic
+- **CobraLang v1.0** — custom assembly-style interpreter (long-term project)
 
-- Calculator
-- Number Guessing Game
-- Letter Guessing Game
-- Rock Paper Scissors
-- Student Grade Calculator
-- CobraLang v1.0
+## Tools
+Python 3, Pydroid 3 (Android)
 
-Current Goal
+## Current Goal
+Learn Python fundamentals, build small projects, improve CobraLang
 
-Learn Python, build projects, and improve CobraLang.
-
-Next Project
-
+## Next Project
 CobraLang v1.1
