@@ -1,0 +1,23 @@
+print("Rithik's CobraLang v1.0")
+
+while True:
+    command = input("Enter your command: ")
+
+    if command == "ABOUT" or command == "about":
+        print("Rithik's CobraLang v1.0")
+        print("Created by Rithik")
+
+    elif command == "HELP" or command == "Help" or command == "help":
+        print("Available commands:")
+        print("ABOUT")
+        print("HELP")
+        print("EXIT")
+
+    elif command == "EXIT" or command == "Exit" or command == "exit":
+        print("Good Byee!!")
+        break
+    elif command.startswith("Add") or command.startswith("add"):
+    	print("Add command detected")
+
+    else:
+        print(f"You entered: {command}")
