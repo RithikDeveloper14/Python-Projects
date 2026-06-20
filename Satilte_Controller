@@ -1,0 +1,66 @@
+import time
+
+fuel = 100
+x = 0
+y = 0
+
+print("Satellite Simulator")
+print("This Satilite Controller was made by Rithik on 20/06/2026")
+
+while True:
+
+    if fuel <= 0:
+        print("Oops! The fuel tank is empty.")
+        print("The satellite can no longer move.")
+        print("Mission Failed!")
+        break
+
+    print("\nFuel =", fuel)
+    print("x =", x)
+    print("y =", y)
+
+    print("1. North")
+    print("2. South")
+    print("3. East")
+    print("4. West")
+    print("5. Return to Earth")
+
+    choice = input("Enter choice: ")
+
+    if choice == "1":
+        y = y + 1
+        fuel = fuel - 10
+        time.sleep(2)
+        print("Moved North!")
+
+    elif choice == "2":
+        y = y - 1
+        fuel = fuel - 10
+        time.sleep(2)
+        print("Moved South!")
+
+    elif choice == "3":
+        x = x + 1
+        fuel = fuel - 10
+        time.sleep(2)
+        print("Moved East!")
+
+    elif choice == "4":
+        x = x - 1
+        fuel = fuel - 10
+        time.sleep(2)
+        print("Moved West!")
+
+    elif choice == "5":
+        print("Processing...")
+        time.sleep(2)
+        print("Preparing landing...")
+        time.sleep(3)
+        print("Entering atmosphere...")
+        time.sleep(5)
+        print("Successfully LANDED!")
+        break
+
+    else:
+        print("Invalid choice!")
+    
