@@ -1,0 +1,19 @@
+import random
+
+alphabets = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+letter = random.choice(alphabets)
+print("Guess a letter between A to Z")
+attempt = 0
+
+while True:
+	attempt += 1
+	guess = input("Enter your guess:  ").upper()
+	if guess < letter:
+		print("Too loww")
+	elif guess > letter:
+		print("Too high")
+	else:
+		print("Correct you got it in",attempt,"attepmts!!")
+		break
+
+print("This game was created by S. Rithik on (24/5/2026)")
