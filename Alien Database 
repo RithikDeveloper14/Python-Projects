@@ -1,0 +1,49 @@
+import random
+print("==== ALIEN SCANNER ====")
+species = ["Robot Alien", "Fire Alien", "Water Alien"]
+
+chosen_species = random.choice(species)
+powers = ["Laser", "Ice Blast", "Teleport"]
+print("Species Name:  ",chosen_species)
+power= random.choice(powers)
+print("Alien Power:  ",power)
+
+alien_name = ["var","cara","noa","rit","xzo","seo"]
+alien_name2 = ["exo","xox","opp","eao","woe","mal"]
+name = random.choice(alien_name)
+name2 = random.choice(alien_name2)
+
+print("Alien Name:  ",name + name2)
+age = random.randint(1,1000)
+print("Age = ",age)
+if age < 100:
+	print("Danger = Low")
+elif age < 500:
+	print("Danger = Medium")
+else:
+	print("Danger = High!")
+planets = [
+    "Nebula-X",
+    "Shadow Moon",
+    "Zorath",
+    "Crimson Prime",
+    "Aqua Nova",
+    "Titanis",
+    "Vortex-9",
+    "Omega Sphere",
+    "Xenoria",
+    "Darkstar",
+    "Pyron",
+    "Glaciera",
+    "Voltaris",
+    "Mystica",
+    "Solaris-X",
+    "Void Planet",
+    "Cryon",
+    "Astra Prime",
+    "Galaxion",
+    "Eclipse World"
+]
+place = random.choice(planets)
+print("Alien Planet = ",place)
+print("This Alien Scanner was Created by Rithik")
