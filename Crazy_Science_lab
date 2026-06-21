@@ -1,0 +1,81 @@
+import time
+
+print("Welcome to Crazy Science Lab")
+
+while True:
+    print("\n1. Solar Flare")
+    print("2. Moon Dust")
+    print("3. Plutonium")
+    print("4. Uranium")
+    print("5. Exit")
+
+    ask1 = input("Enter your First Choice: ")
+
+    if ask1 == "5":
+        print("Experiment Successfully Finished!")
+        break
+
+    ask2 = input("Enter your Second Choice: ")
+
+    if ask1 == "1" and ask2 == "1":
+        print("Nothing. Try to mix Two Different Chemicals")
+
+    elif ask1 == "1" and ask2 == "2":
+        time.sleep(2)
+        print("Invisible Powder!")
+
+    elif ask1 == "1" and ask2 == "3":
+        time.sleep(2)
+        print("Plasma Core R14!")
+
+    elif ask1 == "1" and ask2 == "4":
+        time.sleep(2)
+        print("Star Crystal!")
+
+    elif ask1 == "2" and ask2 == "1":
+        time.sleep(2)
+        print("Invisible Powder!")
+
+    elif ask1 == "2" and ask2 == "2":
+        print("Nothing. Try to mix Two Different Chemicals")
+
+    elif ask1 == "2" and ask2 == "3":
+        time.sleep(2)
+        print("Unlimited Void")
+
+    elif ask1 == "2" and ask2 == "4":
+        time.sleep(2)
+        print("A Atom Energy!!!")
+
+    elif ask1 == "3" and ask2 == "1":
+        time.sleep(2)
+        print("Plasma Core R14!")
+
+    elif ask1 == "3" and ask2 == "2":
+        time.sleep(2)
+        print("Unlimited Void")
+
+    elif ask1 == "3" and ask2 == "3":
+        print("Nothing. Try to mix Two Different Chemicals")
+
+    elif ask1 == "3" and ask2 == "4":
+        time.sleep(2)
+        print("Nuclear EXPLOSION!!!")
+
+    elif ask1 == "4" and ask2 == "1":
+        time.sleep(2)
+        print("Star Crystal!")
+
+    elif ask1 == "4" and ask2 == "2":
+        time.sleep(2)
+        print("A Atom Energy!!!")
+
+    elif ask1 == "4" and ask2 == "3":
+        time.sleep(2)
+        print("Nuclear EXPLOSION!!!")
+
+    elif ask1 == "4" and ask2 == "4":
+        print("Nothing. Try to mix Two Different Chemicals")
+
+    else:
+        print("Invalid Choice")
