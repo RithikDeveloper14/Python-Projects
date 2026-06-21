@@ -1,91 +1,82 @@
-# Rithik's Python Projects
+Rithik's Python Projects
 
-A collection of beginner Python projects built while learning Python fundamentals — covering input/output, conditionals, loops, and basic logic.
+A collection of beginner Python projects built while learning Python fundamentals, including variables, input/output, conditionals, loops, randomization, and problem-solving.
 
----
+📌 Projects
 
-## 📌 Calculator
-**File:** `Calculator.py`
-A command-line calculator that performs basic arithmetic (+, -, *, /) on two numbers.
-```
-python Calculator.py
-```
+Calculator
 
----
+- File: "Calculator.py"
+- Performs basic arithmetic operations (+, -, *, /) on two numbers.
 
-## 📌 Number Guessing Game
-**File:** `Number guessing game`
-The program picks a random number between 1 and 10, and the player guesses until they get it right. Tracks number of attempts.
-```
-python "Number guessing game"
-```
+Number Guessing Game
 
----
+- File: "Number_Guessing_Game.py"
+- The computer chooses a random number.
+- The player guesses until the correct number is found.
+- Tracks the number of attempts.
 
-## 📌 Letter Guessing Game
-**File:** `Letter guessing game`
-The program picks a random letter from A-Z, and the player guesses until they get it right. Tracks number of attempts.
-```
-python "Letter guessing game"
-```
+Letter Guessing Game
 
----
+- File: "Letter_Guessing_Game.py"
+- The computer chooses a random letter from A-Z.
+- The player guesses until they find the correct letter.
+- Tracks the number of attempts.
 
-## 📌 Rock Paper Scissors
-**File:** `Rock Paper Scissors`
-Classic Rock, Paper, Scissors — played against the computer, which picks randomly.
-```
-python "Rock Paper Scissors"
-```
+Rock Paper Scissors
 
----
+- File: "Rock_Paper_Scissors.py"
+- Play Rock, Paper, Scissors against the computer.
+- The computer makes random choices.
 
-## 📌 Student Grade Calculator
-**File:** `Student Grade calculator`
-Takes a student's marks in 5 subjects, calculates total and average, and gives feedback based on performance.
-```
-python "Student Grade calculator"
-```
+Student Grade Calculator
 
----
+- File: "Student_Grade_Calculator.py"
+- Calculates total marks.
+- Calculates average marks.
+- Provides basic performance feedback.
 
-## 📌 CobraLang v1.0
-**File:** `CobraLang v1.0`
-The first prototype of CobraLang — a personal long-term project to eventually build a full custom programming language. This version is a simple command interpreter (ABOUT, HELP, EXIT, ADD).
-```
-python "CobraLang v1.0"
-```
+CobraLang v1.0
 
----
+- File: "CobraLang_v1_0.py"
+- First prototype of CobraLang.
+- Personal long-term programming language project.
+- Current commands:
+  - ABOUT
+  - HELP
+  - ADD
+  - EXIT
 
-## 📌 Satellite Simulator
-**File:** `Satilte_Controller`
-A text-based simulation of piloting a satellite using a limited fuel supply. Move North/South/East/West or attempt to return to Earth before running out of fuel.
-```
-python Satilte_Controller
-. . .
-##📌 Crazy Science Lab
+Satellite Simulator
 
-File: Crazy_Science_Lab
+- File: "Satellite_Controller.py"
+- Control a satellite using limited fuel.
+- Travel North, South, East, or West.
+- Attempt to return safely to Earth.
 
-A text-based science experiment simulator where users mix different chemicals such as Solar Flare, Moon Dust, Plutonium, and Uranium to discover unique inventions, energy sources, and dangerous reactions.
+Crazy Science Lab
 
-Features:
+- File: "Crazy_Science_Lab.py"
+- Mix fictional chemicals.
+- Discover inventions and energy sources.
+- Includes dangerous reactions and explosions.
+- Infinite experiment loop.
 
-- Multiple chemical combinations
-- Custom discoveries
-- Nuclear explosions
-- Infinite experiment loop
-- Exit option
+Alien Scanner
 
-python Crazy_Science_Lab
-```
+- File: "Alien_Database.py"
+- Generates random alien names.
+- Generates random species.
+- Generates random powers.
+- Generates random planets.
+- Generates random ages.
+- Calculates danger levels.
 
----
+🛠️ Tools Used
 
-## 🛠️ Tools Used
 - Python 3
 - Pydroid 3 (Android)
 
-## 👤 Author
-S. Rithik
+👤 Author
+
+- S. Rithik
