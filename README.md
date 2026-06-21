@@ -63,6 +63,22 @@ python "CobraLang v1.0"
 A text-based simulation of piloting a satellite using a limited fuel supply. Move North/South/East/West or attempt to return to Earth before running out of fuel.
 ```
 python Satilte_Controller
+. . .
+##📌 Crazy Science Lab
+
+File: Crazy_Science_Lab
+
+A text-based science experiment simulator where users mix different chemicals such as Solar Flare, Moon Dust, Plutonium, and Uranium to discover unique inventions, energy sources, and dangerous reactions.
+
+Features:
+
+- Multiple chemical combinations
+- Custom discoveries
+- Nuclear explosions
+- Infinite experiment loop
+- Exit option
+
+python Crazy_Science_Lab
 ```
 
 ---
