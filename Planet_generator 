@@ -1,0 +1,61 @@
+import random
+import time
+
+print("Welcome to Official Cobra Community's Planet Creator")
+
+name1 = ["cao", "seo", "ufx", "rit", "era", "nor", "god"]
+name2 = ["exo", "xox", "dow", "rar", "mac", "ra", "cob"]
+planet_type = ["Rocky Planet", "Gas Giant", "Ocean World", "Ice World", "Lava World"]
+
+choice1 = random.choice(name1)
+choice2 = random.choice(name2)
+
+print("Planet Name: ", choice1 + choice2)
+
+time.sleep(1)
+type_of_planet = random.choice(planet_type)
+print("Planet Type: ", type_of_planet)
+
+civilization_levels = [
+    "Primitive",
+    "Tribal",
+    "Ancient Kingdom",
+    "Medieval",
+    "Industrial",
+    "Modern",
+    "Advanced",
+    "Space Age",
+    "Interstellar",
+    "Galactic Empire"
+]
+
+civilization = random.choice(civilization_levels)
+
+time.sleep(2)
+print("Civilization Level: ", civilization)
+
+temp = random.randint(-1000, 1000)
+
+time.sleep(3)
+print("Temperature: ", temp, "Celsius")
+
+population = random.randint(1, 900000000000)
+
+time.sleep(4)
+print("Population: ", population)
+
+time.sleep(5)
+danger = random.randint(1, 10000)
+
+if danger <= 1000:
+    print("Danger: Low")
+elif danger <= 3000:
+    print("Danger: Medium")
+elif danger <= 5000:
+    print("Danger: Hard")
+elif danger <= 8000:
+    print("Danger: Extreme")
+else:
+    print("Danger: IMPOSSIBLE!")
+
+print("This Official Planet Creator was made by the Founder of CobraLang, S. Rithik")
